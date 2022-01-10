@@ -1,0 +1,15 @@
+﻿  igd_desc_parse.c
+  miniupnpc.c
+  minixml.c
+  minisoap.c
+  minissdpc.c
+  miniwget.c
+  upnpcommands.c
+  upnpdev.c
+  upnpreplyparse.c
+  upnperrors.c
+  connecthostport.c
+  portlistingparse.c
+  receivedata.c
+  Generating Code...
+  upnpc-static.vcxproj -> C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\Release\miniupnpc.lib

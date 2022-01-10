@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{7D84E4D6-7534-3197-ACE2-AA8FFC0986BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{23FB1D15-CE43-3754-9256-8D55B1C47854}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{7D6F7FBE-2CF1-328F-8AC7-E1F1D498E029}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C} = {BAA36420-D7CE-3103-992C-773EC1E5A06C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upnpc-static", "upnpc-static.vcxproj", "{BAA36420-D7CE-3103-992C-773EC1E5A06C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D6F7FBE-2CF1-328F-8AC7-E1F1D498E029}.Debug|x64.ActiveCfg = Debug|x64
+		{7D6F7FBE-2CF1-328F-8AC7-E1F1D498E029}.Release|x64.ActiveCfg = Release|x64
+		{7D6F7FBE-2CF1-328F-8AC7-E1F1D498E029}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{7D6F7FBE-2CF1-328F-8AC7-E1F1D498E029}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C}.Debug|x64.ActiveCfg = Debug|x64
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C}.Debug|x64.Build.0 = Debug|x64
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C}.Release|x64.ActiveCfg = Release|x64
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C}.Release|x64.Build.0 = Release|x64
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D6F7FBE-2CF1-328F-8AC7-E1F1D498E029} = {7D84E4D6-7534-3197-ACE2-AA8FFC0986BB}
+		{BAA36420-D7CE-3103-992C-773EC1E5A06C} = {23FB1D15-CE43-3754-9256-8D55B1C47854}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {458254B0-5995-3447-9B94-7731C5361F1F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

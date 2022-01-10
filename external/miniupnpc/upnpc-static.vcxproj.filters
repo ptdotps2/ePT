@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\igd_desc_parse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\miniupnpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\minixml.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\minisoap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\minissdpc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\miniwget.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\upnpcommands.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\upnpdev.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\upnpreplyparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\upnperrors.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\connecthostport.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\portlistingparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\receivedata.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\connecthostport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\igd_desc_parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\minisoap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\minissdpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\miniupnpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\miniupnpctypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\miniwget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\minixml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\portlistingparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\receivedata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\upnpcommands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\upnpdev.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\upnperrors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\upnpreplyparse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\miniupnpc\miniupnpcstrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A6447507-7033-3DFB-A602-A781012E8EEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FD83A69-9F01-3A5D-8171-032A83FA82B8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

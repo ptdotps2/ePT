@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\y6\Desktop\EvilMorty-master (2)\ePT\external\gtest\src\gtest_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FD83A69-9F01-3A5D-8171-032A83FA82B8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
