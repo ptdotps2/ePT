@@ -1,9 +1,9 @@
 #define STR_HELPER(x) #x
 #define STR(x) STR_HELPER(x)
 
-#define PROJECT_NAME "EvilRick"
+#define PROJECT_NAME "ePT"
 #define PROJECT_SITE ""
-#define PROJECT_COPYRIGHT "Copyright 2021-2021, ePT Developers"
+#define PROJECT_COPYRIGHT "Copyright 2021-2022, ePT Developers"
 #define APP_VER_MAJOR @PROJECT_VERSION_MAJOR@
 #define APP_VER_MINOR @PROJECT_VERSION_MINOR@
 #define APP_VER_REV   @PROJECT_VERSION_PATCH@
