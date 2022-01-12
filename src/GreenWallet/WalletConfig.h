@@ -11,7 +11,7 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string addressPrefix = "eviLMo";
+    const std::string addressPrefix = "PT";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
     const std::string ticker = "ePT";
@@ -24,7 +24,7 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "evilmortyd";
+    const std::string daemonName = "ePTdaemon";
 
     /* The name to call this wallet */
     const std::string walletName = "GreenWallet";
@@ -36,7 +36,7 @@ namespace WalletConfig
     const std::string coinName = "ePT";
 
     /* Where can your users contact you for support? E.g. discord */
-    const std::string contactLink = "https://t.me/evilmorty";
+    const std::string contactLink = "https://t.me/edigital_PT";
 
     /* The number of decimals your coin has */
     const int numDecimalPlaces = CryptoNote::parameters
@@ -44,7 +44,7 @@ namespace WalletConfig
 
 
     /* The length of a standard address for your coin */
-    const long unsigned int addressLength = 101;
+    const long unsigned int addressLength = 97;
 
 
     /* The mixin value to use with transactions */
