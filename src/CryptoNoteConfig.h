@@ -128,7 +128,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "ePT";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001e2fadbac921d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101eaefdb855b7df03525924dfb1343ab57f9a9b297a0176e88d77b2f9f4742f4bf";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001e2fadbac921d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101dff0f40017a58295b6ecc9bb46886f179db5e495f93447aa33c0cab783675dec";
 const char     DNS_CHECKPOINTS_HOST[]                        = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
