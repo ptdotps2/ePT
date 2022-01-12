@@ -153,21 +153,7 @@ namespace CryptoNote {
 
     uint64_t baseReward = (m_moneySupply - alreadyGeneratedCoins) >> m_emissionSpeedFactor;
 
-    // Tail emission
-    if (alreadyGeneratedCoins + CryptoNote::parameters::TAIL_EMISSION_REWARD >= m_moneySupply || baseReward < CryptoNote::parameters::TAIL_EMISSION_REWARD)
-    {
-      // flat rate tail emission reward,
-      // inflation slowly diminishing in relation to supply
-      //baseReward = CryptoNote::parameters::TAIL_EMISSION_REWARD;
-      // changed to
-      // Friedman's k-percent rule,
-      // inflation 2% of total coins in circulation per year
-      // according to Whitepaper v. 1, p. 16 (with change of 1% to 2%)
-      const uint64_t blocksInOneYear = expectedNumberOfBlocksPerDay() * 365;
-      uint64_t twoPercentOfEmission = static_cast<uint64_t>(static_cast<double>(alreadyGeneratedCoins) / 100.0 * 2.0);
-      baseReward = twoPercentOfEmission / blocksInOneYear;
-    }
-
+   
     return baseReward;
   }
 
