@@ -195,7 +195,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
 const char* const SEED_NODES[] = { 
   "209.94.60.118:6777",
-  "10.2.12.94:6777"
+  "94.237.48.99:6777"
   
 };
 
